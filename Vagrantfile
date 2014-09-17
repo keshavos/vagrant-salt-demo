@@ -24,6 +24,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
         minion1.vm.provider "virtualbox" do |vb|
             vb.customize ["modifyvm", :id, "--memory", "1024"]
+
         end
     end
 
@@ -34,6 +35,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
         minion2.vm.provider "virtualbox" do |vb|
             vb.customize ["modifyvm", :id, "--memory", "1024"]
+            #vb.gui = true
         end
     end
 

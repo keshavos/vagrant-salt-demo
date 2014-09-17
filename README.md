@@ -66,4 +66,8 @@
     * This should install vim, git on the ubuntu minions
     * Install firefox, chrome, npp, msysgit on the windows minions
 
+###Useful commands
+- In all the following cases, replace '*' with the specific minion_id to target a specific minion
+* `salt '*' pkg.list_pkgs` #outputs the packages installed on the all the minions.
+*
 

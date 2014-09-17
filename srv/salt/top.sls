@@ -4,6 +4,3 @@ base:
         - git
     'win*':
         - firefox
-        - chrome
-        - npp
-        - msysgit
